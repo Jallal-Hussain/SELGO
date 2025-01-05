@@ -1,0 +1,29 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 10dvh;
+  width: 225dvh;
+  padding: 0px 20px;
+
+  .menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #007272;
+  }
+
+  .logo {
+    font-size: 3rem;
+    font-family: Babylonica;
+    color: #007272;
+    /* cursor: pointer; */
+  }
+  .icons {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    color: #007272;
+    cursor: pointer;
+  }
+}
