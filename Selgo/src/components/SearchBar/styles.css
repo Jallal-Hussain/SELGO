@@ -6,12 +6,12 @@
   align-items: center;
 
   .search-bar {
-    width: 50vw;
+    width: 40vw;
     height: 60px;
     padding: 18px 18px;
     gap: 13px;
     border-radius: 10px;
-    border: 1px solid #6b7280;
+    border: 1px solid #007272;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -43,8 +43,9 @@
     height: 48px;
     border: none;
     background-color: #ffffff;
-    color: #47474F;
+    color: #47474f;
     font-size: 16px;
+    border: 1px solid #007272;
     cursor: pointer;
   }
 }

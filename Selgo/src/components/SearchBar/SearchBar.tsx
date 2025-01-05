@@ -31,7 +31,16 @@ const SearchBar: React.FC<SearchBarProps> = ({
             src="/src/assets/images/Banner/maps-location-01.png"
             alt="search"
           />
-          <p>Map</p>
+          <p
+            style={{
+              fontSize: "16px",
+              fontWeight: 500,
+              lineHeight: "22.4px",
+              textAlign: "left",
+            }}
+          >
+            Map
+          </p>
         </button>
       </div>
     </>
