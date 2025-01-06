@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <Footerlinks />
       </div>
       <div className="social-section">
-        <p>@c2024 copyrights all reserved by selgo</p>
+        <p>@2024 copyrights all reserved by selgo</p>
         <div className="social-icons">
           <NavLink to={""}>
             <FacebookIcon />

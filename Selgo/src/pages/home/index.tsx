@@ -5,7 +5,7 @@ import "./styles.css";
 
 const index: React.FC = () => {
   return (
-    <>
+    <> 
       <Banner />
       <PopularAds/>
     </>
