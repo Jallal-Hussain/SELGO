@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 40px 0px;
   padding: 0px 16px;
   gap: 30px;
-  background-color: #e4af0f;
 
   .details-card {
     width: 383px;
@@ -77,22 +77,4 @@
       }
     }
   }
-  /* button {
-    width: 211px;
-    height: 52px;
-    padding: 18px 40px 18px 40px;
-    gap: 16px;
-    border-radius: 4px;
-    color: white;
-    border: none;
-    background-color: #3aa39f;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20px;
-
-    &:hover {
-      background-color: #38ada9;
-      cursor: pointer;
-    }
-  } */
 }

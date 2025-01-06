@@ -1,15 +1,12 @@
-import { NavLink } from "react-router-dom";
+import Category from "../../../../../components/Category/Category";
 import { Categories } from "../../../data/CategoryData";
-import "./styles.css";
+import "./styles.css"
 const CategoryCard = () => {
   return (
     <>
       <div className="category-container">
         {Categories.map((category, index) => (
-          <NavLink to={`${category.url}`} key={index} className="category">
-            <img src={category.icon} alt={category.name} />
-            <p>{category.name}</p>
-          </NavLink>
+          <Category key={index} title={category.title} icon={category.icon} />
         ))}
       </div>
     </>

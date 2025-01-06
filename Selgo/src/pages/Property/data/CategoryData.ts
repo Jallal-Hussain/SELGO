@@ -1,38 +1,38 @@
 interface Categories {
-  name: string;
+  title: string;
   icon: string;
-  url: string;
+  path: string;
 }
 
 export const Categories: Categories[] = [
   {
-    name: "Plots",
+    title: "Plots",
     icon: "/src/assets/icons/Category/property/tree-04.png",
-    url: "/plots",
+    path: "/plots",
   },
   {
-    name: "Residence Abroad",
+    title: "Residence Abroad",
     icon: "/src/assets/icons/Category/property/tree-04.png",
-    url: "/plots",
+    path: "/plots",
   },
   {
-    name: "Vacation Homes",
+    title: "Vacation Homes",
     icon: "/src/assets/icons/Category/property/Vector.png",
-    url: "/plots",
+    path: "/plots",
   },
   {
-    name: "Housing for Sale",
+    title: "Housing for Sale",
     icon: "/src/assets/icons/Category/property/house-01.png",
-    url: "/plots",
+    path: "/plots",
   },
   {
-    name: "New Homes",
+    title: "New Homes",
     icon: "/src/assets/icons/Category/property/house-04.png",
-    url: "/plots",
+    path: "/plots",
   },
   {
-    name: "Leisure Plots",
+    title: "Leisure Plots",
     icon: "/src/assets/icons/Category/property/maps-square-01.png",
-    url: "/plots",
+    path: "/plots",
   },
 ];

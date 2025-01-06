@@ -1,4 +1,4 @@
-// import Button from "../../../../../components/Button";
+import Button from "../../../../../components/Button";
 import { detailsCardData } from "../../../data/DetailsCard";
 import "./styles.css";
 
@@ -26,8 +26,7 @@ const DetailsCard = () => {
               can easily keep track of and compare homes.
             </p>
           </div>
-          {/* <Button /> */}
-          <button>Compare Homes</button>
+          <Button variant="filled" name="Compare Homes"width={211} height={52} />
         </div>
       </div>
     </>
