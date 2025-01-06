@@ -9,7 +9,7 @@ interface DetailsCard {
 export const detailsCardData: DetailsCard[] = [
   {
     id: 1,
-    imageUrl: "/src/assets/images/Property/Image.png",
+    imageUrl: "/assets/images/Property/Image.png",
     name: "Rooms",
     price: "100$",
     description: "1 bedroom",
