@@ -4,9 +4,10 @@ import { categories } from "./data/CategoryData";
 // import componets
 import SearchBar from "../../../components/SearchBar/SearchBar";
 import Category from "../../../components/Category/Category";
-import BannerImages from "../../../components/Banner/Banner";
-// react router imports
+import BannerImage from "../../../components/banner/Banner";
 import { NavLink } from "react-router-dom";
+// import BannerSection from './Banner/index'
+
 
 const Banner: React.FC = () => {
   return (
@@ -20,7 +21,9 @@ const Banner: React.FC = () => {
         </h1>
         <p>Uncover Inspiration, Get Motivated, and live a better life.</p>
       </div>
-      <BannerImages />
+      <BannerImage />
+      {/* <BannerSection /> */}
+      {/* <HeroSection/> */}
       <div className="categories">
         {categories.map((category, index) => (
           <NavLink to={`${category.path}`}>

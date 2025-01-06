@@ -27,7 +27,7 @@ function App() {
                   element={child.element}
                   errorElement={<NotFoundPage />}
                 >
-                  {child.sub_children?.map((subChild, index) => (
+                  {child.sub_child?.map((subChild, index) => (
                     <Route
                       key={index}
                       path={subChild.path}

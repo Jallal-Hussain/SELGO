@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Button from "../Button";
 
 type SearchBarProps = {
   placeholder?: string;
@@ -27,22 +28,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             onChange={handleInputChange}
           />
         </div>
-        <button>
-          <img
-            src="/src/assets/icons/Button/maps-location-01.png"
-            alt="search"
-          />
-          <p
-            style={{
-              fontSize: "16px",
-              fontWeight: 500,
-              lineHeight: "22.4px",
-              textAlign: "left",
-            }}
-          >
-            Map
-          </p>
-        </button>
+        <Button variant="icon-btn" name="Map"width={102} height={48}/>
       </div>
     </>
   );
