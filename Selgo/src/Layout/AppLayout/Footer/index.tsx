@@ -4,8 +4,8 @@ import Logo from "./components/Logo";
 import { NavLink } from "react-router-dom";
 // import { FooterDetailsLinks } from "./data/data";
 import Footerlinks from "./components/Footerlinks";
-import FacebookIcon from "../../../assets/icons/Footer/FacebookIcon";
-import { DribbleIcon, InstagramIcon, TwitterIcon } from "../../../assets/icons";
+import FacebookIcon from "../../../../public/assets/icons/Footer/FacebookIcon";
+import { DribbleIcon, InstagramIcon, TwitterIcon } from "../../../../public/assets/icons";
 
 const Footer: React.FC = () => {
   return (
