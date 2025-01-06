@@ -26,7 +26,16 @@ function App() {
                   path={child.path}
                   element={child.element}
                   errorElement={<NotFoundPage />}
-                />
+                >
+                  {child.sub_child?.map((subChild, subChildIndex) => (
+                    <Route
+                      key={subChildIndex}
+                      path={subChild.path}
+                      element={subChild.element}
+                      errorElement={<NotFoundPage />}
+                    />
+                  ))}
+                </Route>
               ))}
             </Route>
           ))}
