@@ -4,7 +4,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import routes from "./routes/routes";
 import NotFoundPage from "./components/NotFound";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (

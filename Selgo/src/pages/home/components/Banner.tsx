@@ -6,6 +6,8 @@ import SearchBar from "../../../components/SearchBar/SearchBar";
 import { NavLink } from "react-router-dom";
 import Category from "../../../components/Category/Category";
 import BannerImage from "../../../components/banner/Banner";
+// import BannerSection from './Banner/index'
+
 
 const Banner: React.FC = () => {
   return (
@@ -20,6 +22,7 @@ const Banner: React.FC = () => {
         <p>Uncover Inspiration, Get Motivated, and live a better life.</p>
       </div>
       <BannerImage />
+      {/* <BannerSection /> */}
       {/* <HeroSection/> */}
       <div className="categories">
         {categories.map((category, index) => (
