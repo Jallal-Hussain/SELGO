@@ -26,11 +26,11 @@ const CurvedSection: React.FC = () => {
         </div>
 
         <div className="image-gallery">
-          <img src="/src/assets/images/Banner/banner2.png" alt="Image 1" className="image" />
-          <img src="/src/assets/images/Banner/banner2.png" alt="Image 2" className="image" />
-          <img src="/src/assets/images/Banner/banner2.png" alt="Image 3" className="image" />
-          <img src="/src/assets/images/Banner/banner2.png" alt="Image 4" className="image" />
-          <img src="/src/assets/images/Banner/banner2.png" alt="Image 5" className="image" />
+          <img src="/assets/images/Banner/banner2.png" alt="Image 1" className="image" />
+          <img src="/assets/images/Banner/banner2.png" alt="Image 2" className="image" />
+          <img src="/assets/images/Banner/banner2.png" alt="Image 3" className="image" />
+          <img src="/assets/images/Banner/banner2.png" alt="Image 4" className="image" />
+          <img src="/assets/images/Banner/banner2.png" alt="Image 5" className="image" />
         </div>
 
         <div className="svg-image2">

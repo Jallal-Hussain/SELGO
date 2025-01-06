@@ -38,7 +38,7 @@ const Button: React.FC<ButtonProps> = ({ variant, name, width, height }) => {
         height: height,
       }}
     >
-      <img src="/src/assets/icons/Button/maps-location-01.png" alt="icon" />
+      <img src="/assets/icons/Button/maps-location-01.png" alt="icon" />
       {name}
     </button>
   ) : null;
