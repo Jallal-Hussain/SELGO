@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
-import Banner from '../../components/Banner/Banner'
-=======
+
 import React from "react";
 import "./styles.css";
 import SearchBar from "../../components/SearchBar/SearchBar";
@@ -9,7 +6,7 @@ import LinksComponent from "./components/Links/Links";
 import CategoryCard from "./components/Cards/CategoryCard/Card";
 import DetailsCard from "./components/Cards/DetailsCard/Card";
 import RecomendedCard from "./components/Cards/RecomendedCards/Card";
->>>>>>> dev-rafiq
+
 
 const Property: React.FC = () => {
   return (
