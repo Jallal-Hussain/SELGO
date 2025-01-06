@@ -16,7 +16,7 @@ const PopularAds: React.FC = () => {
         <ShopCard />
       </div>
       {/* reuseble card component  */}
-      <Card  data={cardData}/>
+      <Card  data={cardData}/>  
     </div>
   );
 };

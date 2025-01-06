@@ -5,8 +5,7 @@ import { categories } from "./data/CategoryData";
 import SearchBar from "../../../components/SearchBar/SearchBar";
 import { NavLink } from "react-router-dom";
 import Category from "../../../components/Category/Category";
-import BannerImage from '../../../components/banner/Banner'
-
+import BannerImage from "../../../components/banner/Banner";
 
 const Banner: React.FC = () => {
   return (
@@ -25,15 +24,7 @@ const Banner: React.FC = () => {
       <div className="categories">
         {categories.map((category, index) => (
           <NavLink to={`${category.path}`}>
-            {/* <div className="category" key={index}> */}
-              {/* <img src={category.icon} alt="icon" className="icon" />
-              <span className="name">{category.name}</span> */}
-              <Category
-                key={index}
-                title={category.name}
-                icon={category.icon}
-              />
-            {/* </div> */}
+            <Category key={index} title={category.name} icon={category.icon} />
           </NavLink>
         ))}
       </div>
