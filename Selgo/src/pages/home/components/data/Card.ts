@@ -4,10 +4,10 @@ interface FavoriteCard {
   description: string;
   imageUrl: string;
   icon?: string;
-  price: string; // Added price property
+  price: string;
 }
 
-const favoriteCardData: FavoriteCard[] = [
+const cardData: FavoriteCard[] = [
   {
     id: 1,
     name: "Deewan",
@@ -90,4 +90,4 @@ const favoriteCardData: FavoriteCard[] = [
   },
 ];
 
-export default favoriteCardData;
+export default cardData;

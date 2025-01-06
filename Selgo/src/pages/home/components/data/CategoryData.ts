@@ -1,8 +1,8 @@
 
 
 export const categories = [
-  { name: "The Square", icon: "/src/assets/icons/Category/furniture.png" },
-  { name: "Property", icon: "/src/assets/icons/Category/home-09.png" },
+  { name: "The Square", icon: "/src/assets/icons/Category/furniture.png", path: '/target' },
+  { name: "Property", icon: "/src/assets/icons/Category/home-09.png", path: '/property' },
   { name: "Travel", icon: "/src/assets/icons/Category/airplane-take-off-01.png" },
   { name: "Boat", icon: "/src/assets/icons/Category/boat.png" },
   { name: "Newly used Electronics", icon: "/src/assets/icons/Category/fridge.png" },

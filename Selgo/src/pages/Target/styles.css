@@ -1,0 +1,11 @@
+.target-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h3{
+    padding: 10px 20px;
+    font-size: 48px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+
 type SearchBarProps = {
   placeholder?: string;
   onSearch?: (value: string) => void;
@@ -28,7 +29,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
         </div>
         <button>
           <img
-            src="/src/assets/images/Banner/maps-location-01.png"
+            src="/src/assets/icons/Button/maps-location-01.png"
             alt="search"
           />
           <p

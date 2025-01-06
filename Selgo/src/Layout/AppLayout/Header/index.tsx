@@ -7,6 +7,7 @@ import {
   NotificationIcon,
   AvatarIcon,
 } from "../../../assets/icons";
+import { NavLink } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Header: React.FC = () => {
         <div className="menu-icon">
           <MenuIcon />
         </div>
-        <div className="logo">Selgo</div>
+        <NavLink to='/' className="logo">Selgo</NavLink>
         <div className="icons">
           {" "}
           <AddIcon />
