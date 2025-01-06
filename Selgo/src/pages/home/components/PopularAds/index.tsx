@@ -3,7 +3,8 @@ import SalesCard from "./Sales";
 import "./styles.css";
 import ProfileCard from "./Profile";
 import ShopCard from "./Shop";
-import Card from "../Cards";
+import Card from "../../../../components/Card/Card";
+import cardData from "../data/Card";
 
 const PopularAds: React.FC = () => {
   return (
@@ -14,7 +15,8 @@ const PopularAds: React.FC = () => {
         <SalesCard />
         <ShopCard />
       </div>
-      <Card />
+      {/* reuseble card component  */}
+      <Card  data={cardData}/>
     </div>
   );
 };

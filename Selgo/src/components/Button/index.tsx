@@ -1,39 +1,22 @@
 import React from "react";
+import "./styles.css";
 
 interface ButtonProps {
   name?: string;
   color?: string;
   width?: number;
   height?: number;
-  padding?: number;
-  backgroundColor?: string;
-  borderRadius?: number;
-  fontSize?: number
 }
 
-const Button: React.FC<ButtonProps> = ({
-  name,
-  color,
-  width,
-  height,
-  padding,
-  backgroundColor,
-  borderRadius,
-  fontSize
-}) => {
+const Button: React.FC<ButtonProps> = ({ name, width, height }) => {
   return (
     <button
       style={{
-        color: color,
         width: width,
         height: height,
-        padding: padding,
-        backgroundColor: backgroundColor,
-        border: 'none',
-        borderRadius: borderRadius,
-        fontSize: fontSize
       }}
     >
+      <img src="/src/assets/icons/Button/maps-location-01.png" alt="icon" />
       {name}
     </button>
   );

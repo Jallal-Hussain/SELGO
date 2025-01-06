@@ -1,8 +1,11 @@
 import React from 'react'
+import Banner from '../../components/banner/Banner'
 
 const Property:React.FC = () => {
   return (
-    <div>Property</div>
+    <div>
+      <Banner />
+    </div>
   )
 }
 
