@@ -2,6 +2,8 @@ import React from "react";
 import "./styles.css";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import LinksComponent from "./components/Links/Links";
+import CategoryCard from "./components/Cards/CategoryCard/Card";
+import DetailsCard from "./components/Cards/DetailsCard/Card";
 
 const Property: React.FC = () => {
   return (
@@ -18,7 +20,10 @@ const Property: React.FC = () => {
           <LinksComponent />
         </div>
         <div className="property-body">
-          <div className="property-body-content"></div>
+          <div className="body-content">
+            <CategoryCard />
+            <DetailsCard />
+          </div>
         </div>
       </div>
     </>

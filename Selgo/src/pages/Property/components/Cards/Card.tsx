@@ -1,4 +1,4 @@
-import favoriteCardData from "../data/Card";
+import {favoriteCardData} from "../../data/CardData";
 import "./styles.css";
 
 const FavoriteCard = () => {

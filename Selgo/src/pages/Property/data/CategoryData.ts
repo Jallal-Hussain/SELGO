@@ -1,15 +1,38 @@
+interface Categories {
+  name: string;
+  icon: string;
+  url: string;
+}
 
-
-export const categories = [
-  { name: "The Square", icon: "/src/assets/icons/Category/furniture.png" },
-  { name: "Property", icon: "/src/assets/icons/Category/home-09.png" },
-  { name: "Travel", icon: "/src/assets/icons/Category/airplane-take-off-01.png" },
-  { name: "Boat", icon: "/src/assets/icons/Category/boat.png" },
-  { name: "Newly used Electronics", icon: "/src/assets/icons/Category/fridge.png" },
-  { name: "MC", icon: "/src/assets/icons/Category/motorbike-02.png" },
-  { name: "Jobs", icon: "/src/assets/icons/Category/job-search.png" },
-  { name: "Homes for Rent", icon: "/src/assets/icons/Category/home-09 (1).png" },
-  { name: "Car and Industry", icon: "/src/assets/icons/Category/car-03.png" },
-  { name: "Online Car", icon: "/src/assets/icons/Category/bot.png" },
-  { name: "My Tender", icon: "/src/assets/icons/Category/agreement-02.png" },
+export const Categories: Categories[] = [
+  {
+    name: "Plots",
+    icon: "/src/assets/icons/Category/property/tree-04.png",
+    url: "/plots",
+  },
+  {
+    name: "Residence Abroad",
+    icon: "/src/assets/icons/Category/property/tree-04.png",
+    url: "/plots",
+  },
+  {
+    name: "Vacation Homes",
+    icon: "/src/assets/icons/Category/property/Vector.png",
+    url: "/plots",
+  },
+  {
+    name: "Housing for Sale",
+    icon: "/src/assets/icons/Category/property/house-01.png",
+    url: "/plots",
+  },
+  {
+    name: "New Homes",
+    icon: "/src/assets/icons/Category/property/house-04.png",
+    url: "/plots",
+  },
+  {
+    name: "Leisure Plots",
+    icon: "/src/assets/icons/Category/property/maps-square-01.png",
+    url: "/plots",
+  },
 ];
