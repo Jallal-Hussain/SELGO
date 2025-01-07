@@ -1,17 +1,11 @@
 .card {
   display: flex;
-  row-gap: 25px;
-<<<<<<< HEAD
-  column-gap: 15px;
-=======
-  /* column-gap: 4px;  */
->>>>>>> main
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
   align-items: center;
-  padding: 20px 20px;
-  /* width: 300px; */
-  /* border: 1px solid bisque; */
+  padding: 20px 0px;
 }
 .fav-card-container {
   border: 1px solid #d9d9d9;
@@ -23,10 +17,7 @@
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
-  width: 240px;
-  height: 343px;
   gap: 10px;
-
   &:hover {
     box-shadow: 3px 4px 10px 0px #a4b6b6;
   }

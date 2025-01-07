@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid black; */
-  height: 10dvh;
-  width: 225dvh;
-  padding: 0px 20px;
+  height: auto;
+  width: 100%;
+  padding: 4px 20px;
   a {
     text-decoration: none;
   }
