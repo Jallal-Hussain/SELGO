@@ -26,7 +26,12 @@ const DetailsCard = () => {
               can easily keep track of and compare homes.
             </p>
           </div>
-          <Button variant="filled" name="Compare Homes"width={211} height={52} />
+          <Button
+            variant="filled"
+            name="Compare Homes"
+            width={211}
+            height={52}
+          />
         </div>
       </div>
     </>
