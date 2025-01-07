@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: auto;
   width: 100%;
   padding: 4px 20px;
+  /* position: fixed; */
   a {
     text-decoration: none;
   }
@@ -14,7 +15,6 @@
     cursor: pointer;
     color: #007272;
   }
-
   .logo {
     font-size: 3rem;
     font-family: Babylonica;
