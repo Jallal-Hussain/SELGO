@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import SalesImage from "../../../../../public/assets/images/PopularAds/Sales/cardImg.png";
+import SalesImage from "/assets/images/PopularAds/Sales/cardImg.png";
 
 const SalesCard: React.FC = () => {
   return (
