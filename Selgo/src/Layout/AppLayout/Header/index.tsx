@@ -6,7 +6,7 @@ import {
   MessageIcon,
   NotificationIcon,
   AvatarIcon,
-} from "../../../assets/icons";
+} from "../../../../public/assets/icons";
 import { NavLink } from "react-router-dom";
 
 const Header: React.FC = () => {

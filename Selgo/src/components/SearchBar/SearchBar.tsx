@@ -21,7 +21,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
     <>
       <div className="search-container">
         <div className="search-bar">
-          <img src="/src/assets/images/Banner/search-01.png" alt="search" />
+          <img src="/assets/images/Banner/search-01.png" alt="search" />
           <input
             type="text"
             placeholder={placeholder}

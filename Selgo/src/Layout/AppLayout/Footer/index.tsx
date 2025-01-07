@@ -4,8 +4,8 @@ import Logo from "./components/Logo";
 import { NavLink } from "react-router-dom";
 // import { FooterDetailsLinks } from "./data/data";
 import Footerlinks from "./components/Footerlinks";
-import FacebookIcon from "../../../assets/icons/Footer/FacebookIcon";
-import { DribbleIcon, InstagramIcon, TwitterIcon } from "../../../assets/icons";
+import FacebookIcon from "../../../../public/assets/icons/Footer/FacebookIcon";
+import { DribbleIcon, InstagramIcon, TwitterIcon } from "../../../../public/assets/icons";
 
 const Footer: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <Footerlinks />
       </div>
       <div className="social-section">
-        <p>@c2024 copyrights all reserved by selgo</p>
+        <p>@2024 copyrights all reserved by selgo</p>
         <div className="social-icons">
           <NavLink to={""}>
             <FacebookIcon />

@@ -1,11 +1,12 @@
 import React from "react";
+// data
 import { categories } from "./data/CategoryData";
-// import { BannerImagesData } from "./data/BannerImages";
-// import HeroSection from "./Hero";
+// import componets
 import SearchBar from "../../../components/SearchBar/SearchBar";
-import { NavLink } from "react-router-dom";
 import Category from "../../../components/Category/Category";
-import BannerImage from '../../../components/banner/Banner'
+import BannerImage from "../../../components/banner/Banner";
+import { NavLink } from "react-router-dom";
+// import BannerSection from './Banner/index'
 
 
 const Banner: React.FC = () => {
@@ -21,19 +22,12 @@ const Banner: React.FC = () => {
         <p>Uncover Inspiration, Get Motivated, and live a better life.</p>
       </div>
       <BannerImage />
+      {/* <BannerSection /> */}
       {/* <HeroSection/> */}
       <div className="categories">
         {categories.map((category, index) => (
           <NavLink to={`${category.path}`}>
-            {/* <div className="category" key={index}> */}
-              {/* <img src={category.icon} alt="icon" className="icon" />
-              <span className="name">{category.name}</span> */}
-              <Category
-                key={index}
-                title={category.name}
-                icon={category.icon}
-              />
-            {/* </div> */}
+            <Category key={index} title={category.name} icon={category.icon} />
           </NavLink>
         ))}
       </div>

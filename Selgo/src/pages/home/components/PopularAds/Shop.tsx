@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ShopImage from '../../../../assets/images/PopularAds/Shop/shopImg.png'
+import ShopImage from '../../../../../public/assets/images/PopularAds/Shop/shopImg.png'
 const ShopCard: React.FC = () => {
   return (
     <div className="shop-container">

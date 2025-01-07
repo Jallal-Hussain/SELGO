@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../../../../assets/avatar/profile 1.png";
+import Avatar from "../../../../../public/assets/avatar/profile 1.png";
 import { ProfileCardsData } from "../data/ProfileCardData";
 
 const ProfileCard: React.FC = () => {
